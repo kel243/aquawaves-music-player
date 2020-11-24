@@ -59,6 +59,7 @@ function App() {
       <Song imgRef={imgRef} currentSong={currentSong} isPlaying={isPlaying}/>
       <Player imgRef={imgRef} currentSong={currentSong} songs={songs} songInfo={songInfo} setSongInfo={setSongInfo} audioRef={audioRef} isPlaying={isPlaying} setIsPlaying={setIsPlaying} setCurrentSong={setCurrentSong}/>
       <Library imgRef={imgRef} libraryStatus={libraryStatus} isPlaying={isPlaying} audioRef={audioRef} songs={songs} setCurrentSong={setCurrentSong} setSongs={setSongs}/>
+      <Volume audioRef={audioRef} />
       <audio onTimeUpdate={timeUpdateHandler} onLoadedMetadata={timeUpdateHandler} ref={audioRef} src={currentSong.audio} onEnded={songEndHandler}></audio>
     </div>
   );

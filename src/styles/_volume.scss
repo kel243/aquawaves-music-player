@@ -1,0 +1,19 @@
+.volume-control {
+  height: 15vh;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+
+  input {
+    width: 100%;
+    -webkit-appearance: none;
+    background: transparent;
+    cursor: pointer;
+  }
+}
+
+.track-volume {
+  height: 0.8rem;
+  margin: 0 0.5rem;
+}
