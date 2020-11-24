@@ -1,6 +1,8 @@
 .volume-control {
-  height: 15vh;
-  width: 20%;
+  height: 13vh;
+  width: 30%;
+  min-width: 13rem;
+  max-width: 20rem;
   display: flex;
   align-items: center;
   margin: 0 auto;
